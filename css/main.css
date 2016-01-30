@@ -1,6 +1,6 @@
 
 .flip-container {
-        margin: 10px;
+        margin: 2px;
         perspective: 1000;
         display: inline-block;
     }
@@ -11,8 +11,8 @@
         transform: rotateY(0deg);
     }
     .flip-container, .front, .back {
-        width: 300px;
-        height: 300px auto;
+        width: 400px;
+        height: 400px;
     }
     .card {
         transition: 0.6s;
